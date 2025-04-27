@@ -84,7 +84,7 @@ export default function HeroSection() {
     <section className="relative bg-black overflow-hidden flex flex-col text-white">
       <div>
         {/* Background Circles Image */}
-        <div className="absolute inset-0 z-0">
+        {/* <div className="absolute inset-0 z-0">
           <Image
             src="/9bb359bf-27f2-4afe-8055-1ec1940209f2.png"
             alt="Background Circles"
@@ -92,10 +92,10 @@ export default function HeroSection() {
             objectFit="cover"
             priorityHeroSection
           />
-        </div>
+        </div> */}
 
         {/* Main Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-6 pt-32  flex flex-col items-center text-center md:flex-row md:justify-between md:text-left">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 md:pt-32 pt-[20px]  flex flex-col items-center text-center md:flex-row md:justify-between md:text-left">
           {/* Left Content */}
           <div className="md:w-full space-y-6">
             {/* Badge */}
