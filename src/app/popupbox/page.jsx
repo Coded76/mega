@@ -110,7 +110,7 @@ function page() {
                     <button className='md:w-[40%] w-[100%] font-bold py-[20px] rounded-full mt-[20px] border-2 text-[#E3E354] border-[#E3E354]'>
                         DECLINE
                     </button>
-                    <button className='md:w-[40%] w-[100%]  font-bold py-[20px] rounded-full mt-[20px] border-2 text-[black] bg-[#E3E354] border-[#E3E354]'>
+                    <button className='md:w-[40%] w-[100%]  font-bold py-[20px] rounded-full mt-[20px] border-2 text-[black] bg-gradient-to-b from-[#E3D7AE] to-[#E3E354] border-[#E3E354]'>
                         ACCEPT
                     </button>
                 </div>
