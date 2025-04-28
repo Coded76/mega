@@ -10,7 +10,7 @@ export default function HeroSection() {
         backgroundImage: 'url("/hero_bg.svg")',
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        backgroundSize: "contain", // optional: makes it stretch nicely
+        backgroundSize: "cover", // optional: makes it stretch nicely
       }}
     >
       <div>
@@ -80,13 +80,13 @@ export default function HeroSection() {
         </div>
       </div>
       {/* Bottom Stars Decoration */}
-      <div className="relative w-full h-[23px] md:h-20">
+      <div className="relative w-full h-[83px] md:h-20">
         <Image
           src="/star_line.svg"
           alt="Stars Banner Bottom"
           layout="fill"
           objectFit="cover"
-          objectPosition="bottom"
+          // objectPosition="bottom"
         />
       </div>
     </section>
